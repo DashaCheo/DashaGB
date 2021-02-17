@@ -1,4 +1,4 @@
-public class HW1 {
+public class HW2 {
 
     private static void invertArrayVar1(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
