@@ -24,7 +24,7 @@ public class HW3 {
                         "\nКоличество попыток: %d.\n\n", tryNumbers);
                 guessNumber(cpuNum);
             } while (exitGame());
-            System.out.println("Игра окончена.\nЗавершение работы программы.");
             scanner.close();
         }
     }
+}
