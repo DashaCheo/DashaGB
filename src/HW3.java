@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class HW3 {
-    private static void guessNumber() {
+    private static void generateNumber() {
         Scanner scanner = new Scanner(System.in);
         do {
             int numComp = random.nextInt(10);
