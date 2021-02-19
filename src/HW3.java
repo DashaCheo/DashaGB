@@ -12,9 +12,19 @@ public class HW3 {
                     break;
                 }
                 System.out.println(questionNum > numComp ? "Введенное чилсо больше " : "Введенное число меньше ");
-                System.out.println((i-1) > 0 ? " у вас осталось " + (i-1) + " попыток." : "Попытки закончились, вы проиграли.");
+                System.out.println((i - 1) > 0 ? " у вас осталось " + (i - 1) + " попыток." : "Попытки закончились, вы проиграли.");
             }
             System.out.println("Повторить игру еще раз? 1 – да / 0 – нет»(1 – повторить, 0 – нет)");
         }
         while (scanner.nextInt() == 1);
+        public static void main (String[]args){
+            do {
+                int cpuNum = (int) (Math.random() * maxRange);
+                System.out.printf("Игра предлагает угадать число, загаданное компьютером." +
+                        "\nКоличество попыток: %d.\n\n", tryNumbers);
+                guessNumber(cpuNum);
+            } while (exitGame());
+            System.out.println("Игра окончена.\nЗавершение работы программы.");
+            scanner.close();
+        }
     }
