@@ -1,5 +1,5 @@
 public class Hw5 {
-    class Person {
+    static class Person {
         private String fio;
         private String post;
         private String email;
@@ -30,8 +30,7 @@ public class Hw5 {
     }
 
 
-
-    public class Main {
+    public static class Main {
 
         public static void main(String[] args) {
 
@@ -47,3 +46,5 @@ public class Hw5 {
             }
         }
     }
+
+
