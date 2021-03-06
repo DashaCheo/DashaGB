@@ -1,6 +1,8 @@
+
+
 public class HW2 {
 
-    private static void invertArrayVar1(int[] arr) {
+    private static void invertArrayVar1(int @NotNull [] arr) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = (arr[i] == 1) ? 0 : 1;
         }
